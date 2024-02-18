@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+<nav id="desktop-nav">
+    <div class="contact-info-container">
+        <img src="/assets/profile2.png" alt="My Gmail" class="icon contact-icon">
+        <p>Curriculum Vitae</p>
+    </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#desktop-nav">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#project">Hobby</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+</nav>
+<nav  id="humberger-nav">
+        <div class="logo"> Rifki Reysaad</div>
+        <div class="humberger-menu">
+            <div class="humberger-icon"  onclick="toogleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#desktop-nav" onclick="toogleMenu()">Home</a></li>
+                <li><a href="#about" onclick="toogleMenu()" >About Me</a></li>
+                <li><a href="#project" onclick="toogleMenu()" >Hobby</a></li>
+                <li><a href="#contact" onclick="toogleMenu()">Contact</a></li>
+            </div>
+        </div>
+</nav>
+<section id="profile">
+    <div class="section__pic-container">
+        <img src="/assets/profile.png" alt="Rifki Reysaad Photo profile" srcset="">
+    </div>
+    <div class="section__text">
+        <p class="section__text__p1">Hello There i'm</p>
+        <h1 class="title"> Rifki Reysaad Bangun</h1>
+        <p class="section__text__p2">Mahasiswa Teknologi Informasi <br>in this website you can see what i have got 'till now <br>Here</p>
+        <div class="btn-container">
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">My Contact</button>
+        </div>
+    </div>
+</section>
+<section id="about">
+    <p class="title">About Me</p>
+    <p class="section__text__p1">To Know More</p>
+    <div class="section-container">
+        <div class="about-detail-container">
+            <div class="about-container">
+                <div class="details-container">
+                    <img src="/assets/education.png" alt="Pendidikan" class="icon icon-about">
+                    <h3>Pendidikan</h3>
+                    <P class="just">SMP Negeri   11    Binjai</P>
+                    <p class="just">SMK Negeri 1 Binjai : Rekayasa Perangkat Lunak</p>
+                    <p class="just">S-1 Teknologi Informasi (UnderGraduate)</p>
+                </div>
+                <div class="details-container">
+                    <img src="/assets/pengalaman.png" alt="Pengalaman" class="icon icon-about">
+                    <h3>Pengalaman</h3>
+                    <p class="just">OSIS  : Ketua Bidang Humas</p>
+                    <p class="just">Pik-r : Wakil Ketua</p>
+                    <P class="just">Juara 1 LKS Bidang "IT for Bussiness" Tingkat Kota</P>
+                </div>
+                <div class="details-container">
+                    <img src="/assets/Skill.png" alt="Skill" class="icon icon-about">
+                    <h3>Skill</h3>
+                    <p class="just">Karate : Sabuk Coklat</p>
+                    <p class="just">Photografi</p>
+                    <p class="just">Web Devlopment : Basic</p>
+                    <P class="just">Desktop Devlopment : Basic</P>
+                </div>
+            </div>
+            <div class="text-container">
+                <p><br>So basicly i'm a newbie to fall in tecnology information ,i hope what i got till now can help me through all of this.<b>Next Time I Will Take It</b> </p>
+            </div>
+        </div>
+        <div class="section__pic-container">
+            <img src="/assets/profile2.png" alt="Profile Picture" class="about-pic">
+        </div>
+    </div>
+</section>
+<section id="project">
+    <p class="section__text__p1">Take a Look To My</p>
+    <h1 class="title">Hobby</h1>
+    <div class="exprience-details-container">
+        <div class="about-container">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/hobby1.jpg" alt="My 1st Hobby" srcset="" class="project-img img-first">
+                    <h2 class="exprience-sub-title project-title">Swimming</h2>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/hobby2.jpg" alt="My 2nd Hobby" srcset="" class="project-img">
+                    <h2 class="exprience-sub-title project-title">Reading</h2>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="assets/hobby3.jpg" alt="My 3rd Hobby" srcset="" class="project-img">
+                    <h2 class="exprience-sub-title project-title">Gaming</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="contact">
+     <h1 class="title">Contact Me</h1>
+     <p class="section__text__p1">'If You Need Me'</p>
+     <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="/assets/gmail.png" alt="My Gmail" class="icon contact-icon">
+            <p><a href="mailto:rifkireysaad20@gmal.com">rifkireysaad20@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="/assets/linkedin.png" alt="My LinkedIn" class="icon contact-icon">
+            <p><a href="https://www.linkedin.com/">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="/assets/inst.png" alt="My Instagram" class="icon contact-icon">
+            <p><a href="https://www.instagram.com/_rfkyrb/">Instagram</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="/assets/Github.png" alt="My GitHub" class="icon contact-icon">
+            <p><a href="https://github.com/RifkiReysaad">GitHub</a></p>
+        </div>
+     </div>
+</section>
+<footer>
+<nav>
+    <div class="nav-links-container">
+        <ul class="nav-links">
+            <li><a href="#desktop-nav">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#project">Hobby</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+<p>Copyright &#169; 2023 Rifki Reysaad. All Rights Reserved.</p>
+</footer>    
+<script src="script.js"></script>
+</body>
+</html>
